@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,9 +16,8 @@
 //     return view('welcome');
 // });
 
-
 Route::get('/', 'SiteController@index');
+Route::get('/grupo', 'SiteController@grupo');
+Route::get('/pesquisas', 'SiteController@pesquisas');
+Route::get('/portifolio', 'SiteController@portifolio');
 Route::get('/contato', 'SiteController@contato');
-Route::get('/blog', 'SiteController@blog');
-Route::get('/service', 'SiteController@service');
-

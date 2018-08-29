@@ -2,14 +2,30 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class SiteController extends Controller
 {
     public function index()
     {
-    	return view('welcome');
+        return view('index');
     }
 
-   
+    public function grupo()
+    {
+        return view('grupo');
+    }
+
+    public function pesquisas()
+    {
+        return view('pesquisas');
+    }
+
+    public function portifolio()
+    {
+        return view('portifolio');
+    }
+
+    public function contato()
+    {
+        return view('contato');
+    }
 }
