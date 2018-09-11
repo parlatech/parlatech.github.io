@@ -6,7 +6,7 @@
             items: 1,
             loop: true,
             autoplay: true,
-            smartSpeed: 800,
+            smartSpeed: 3200,
             margin: 0,
             dots: false,
             nav: true,

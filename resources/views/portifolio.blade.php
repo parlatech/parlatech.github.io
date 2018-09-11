@@ -1,5 +1,5 @@
 @extends('menu')
-@section('title', 'Portifólio')
+@section('title', 'Portfólio')
 @section('conteudo')
     <!-- ***** Breadcumb Area Start ***** -->
     <div class="mosh-breadcumb-area" style="background-image: url(img/core-img/breadcumb.png);">

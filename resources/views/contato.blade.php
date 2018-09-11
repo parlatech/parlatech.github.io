@@ -28,22 +28,22 @@
                 <!-- Contact Form Area -->
                 <div class="col-12 col-md-8">
                     <div class="contact-form-area">
-                        <h2>Get in touch</h2>
+                        <h2>Entrar em contato</h2>
                         <form action="#">
                             <div class="row">
                                 <div class="col-12 col-md-6">
-                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                    <input type="text" class="form-control" id="name" placeholder="Nome">
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <input type="email" class="form-control" id="email" placeholder="E-mail">
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <input type="text" class="form-control" id="subject" placeholder="Assunto">
                                 </div>
                                 <div class="col-12">
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Menssagem"></textarea>
                                 </div>
-                                <button class="btn mosh-btn mt-50" type="submit">Send Message</button>
+                                <button class="btn mosh-btn mt-50" type="submit">Enviar Menssagem</button>
                             </div>
                         </form>
                     </div>
@@ -51,32 +51,24 @@
                 <!-- Contact Information -->
                 <div class="col-12 col-md-4">
                     <div class="contact-information">
-                        <h2>Contact</h2>
+                        <h2>Contato</h2>
                         <div class="single-contact-info d-flex">
                             <div class="contact-icon mr-15">
                                 <img src="img/core-img/map.png" alt="">
                             </div>
-                            <p>4127/ 5B-C Mislane Road,<br> Gibraltar, UK</p>
+                            <p>Rua Halfeld, 1.179, Centro, Juiz de Fora - MG, 36016-000</p>
                         </div>
                         <div class="single-contact-info d-flex">
                             <div class="contact-icon mr-15">
                                 <img src="img/core-img/call.png" alt="">
                             </div>
-                            <p>Main: 203-808-8613 <br> Office: 203-808-8648</p>
+                            <p>(32) 3250-3800</p>
                         </div>
                         <div class="single-contact-info d-flex">
                             <div class="contact-icon mr-15">
                                 <img src="img/core-img/message.png" alt="">
                             </div>
-                            <p>office@yourbusiness.com</p>
-                        </div>
-                        <div class="contact-social-info mt-50">
-                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <p>parlatechces@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -90,6 +82,6 @@
         <div id="googleMap"></div>
     </div>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s" type="text/javascript"></script>
     <script src="js/map-active.js"></script>
 @stop
